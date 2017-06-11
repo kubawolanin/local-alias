@@ -1,22 +1,8 @@
 {
     "port": 80,
     "aliases": {
-        "forum": "https://community.openhab.org",
-        "community": ">forum",
-        "oh": "http://openhabianpi:8080/start/index",
-        "basic": "http://openhabianpi:8080/basicui/app?sitemap=home",
-        "rest": "http://openhabianpi:8080/doc/index.html",
-        "habmin": "http://openhabianpi:8080/habmin/index.html",
-        "things": "http://openhabianpi:8080/paperui/index.html#/configuration/things",
-        "panel": "http://openhabianpi:8080/habpanel/index.html#/view/%C5%9Awiat%C5%82a",
-        "logs": "http://openhabianpi:9001/",
-        "log": ">logs",
-        "l": ">log",
-        "nodered": "http://openhabianpi:1880",
-        "graph": "http://openhabianpi:3000/dashboard/db/%s?from=now%2Fd&to=now&orgId=1",
-        "grafana": ">graph",
-        "binding": "http://docs.openhab.org/addons/bindings/%s/readme.html",
-        "help": "http://docs.openhab.org/search?q=%s",
-	"hello": "http://wp.pl/"
+        "example": "https://github.com",
+        "github": ">example",
+        "gh": "https://github.com/search?q=%s",
     }
 }

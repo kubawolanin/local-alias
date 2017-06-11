@@ -20,8 +20,7 @@ Here's [how to change your hostname on RPi](https://thepihut.com/blogs/raspberry
 ## Configuration
 
 ```
-cd $(npm root -g)
-cd local-alias
+cd $(npm root -g)/local-alias
 nano config.json
 ```
 
@@ -77,7 +76,17 @@ http://home/help/whatever
 `node local-alias`
 
 There's a possibility to run this as a service using [`forever`](http://npmjs.com/package/forever).
+But before you do that, you'll need to make sure that you set right permissions to run server on `80` port.
+
+On Debian/Ubuntu:
 
 ```
-~$ cd $(npm root -g)
+sudo apt-get install libcap2-bin
+sudo setcap cap_net_bind_service=+ep `readlink -f \`which node\``
+```
+
+And then install and run `forever`
+```
+npm i -g forever
+sudo forever start $(npm root -g)/local-alias
 ```
