@@ -3,6 +3,6 @@
     "aliases": {
         "example": "https://github.com",
         "github": ">example",
-        "gh": "https://github.com/search?q=%s",
+        "gh": "https://github.com/search?q=%s"
     }
 }
