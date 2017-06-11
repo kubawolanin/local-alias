@@ -1,31 +1,31 @@
 {
-  "name": "local-alias",
-  "version": "0.0.1",
-  "description": "Simple Node.js server for setting up local aliases for various URLs",
-  "main": "index.js",
-  "keywords": [
-    "nodejs",
-    "redirect",
-    "url",
-    "alias"
-  ],
-  "author": "Kuba Wolanin",
-  "license": "MIT",
-  "dependencies": {
-    "connect": "^3.6.2",
-    "connect-redirection": "0.0.1",
-    "self-reload-json": "^0.3.0"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kubawolanin/local-alias.git"
-  },
-  "bugs": {
-    "url": "https://github.com/kubawolanin/local-alias/issues"
-  },
-  "homepage": "https://github.com/kubawolanin/local-alias#readme"
+    "name": "local-alias",
+    "version": "0.0.2",
+    "description": "Simple Node.js server for setting up local aliases for various URLs",
+    "main": "index.js",
+    "keywords": [
+        "nodejs",
+        "redirect",
+        "url",
+        "alias"
+    ],
+    "author": "Kuba Wolanin",
+    "license": "MIT",
+    "dependencies": {
+        "connect": "^3.6.2",
+        "connect-redirection": "0.0.1",
+        "self-reload-json": "^0.3.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kubawolanin/local-alias.git"
+    },
+    "bugs": {
+        "url": "https://github.com/kubawolanin/local-alias/issues"
+    },
+    "homepage": "https://github.com/kubawolanin/local-alias#readme"
 }
