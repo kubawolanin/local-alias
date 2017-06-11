@@ -1,6 +1,6 @@
 {
     "name": "local-alias",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Simple Node.js server for setting up local aliases for various URLs",
     "main": "index.js",
     "keywords": [
